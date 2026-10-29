@@ -102,10 +102,10 @@ pip install bigdata-research-tools[azure,bedrock,openai]
 Set up your credentials using environment variables:
 
 ```bash
-export BIGDATA_API_KEY="your_api_key"
+export BIGDATA_API_KEY="bd_v2_QmaTr3nGY88EQeqTplglZCPCgYMo5rkAkbYdURh8ttq337"
 # or
-export BIGDATA_USERNAME="your_username"
-export BIGDATA_PASSWORD="your_password"
+export BIGDATA_USERNAME="patrick.laurier.andarr@gmail.com"
+export BIGDATA_PASSWORD="Degtegwalking1!"
 ```
 
 ### Using .env File
@@ -154,13 +154,13 @@ asyncio.get_running_loop()
 import nest_asyncio; nest_asyncio.apply()
 ```
 
-### Thematic Screener
+### ThematicScreener
 
 Analyzes company exposure to specific themes by generating sub-themes and assigning exposure scores. Returns structured tables with labeled text and a final basket of companies sorted by exposure scores along with a final motivation. 
 
 #### Basic Usage
 
-```python
+```python3
 from bigdata_research_tools.workflows import ThematicScreener
 from bigdata_research_tools.client import bigdata_connection
 from bigdata_client.models.search import DocumentType
@@ -205,7 +205,7 @@ Parameters to initialize the `ThematicScreener` class.
 | `focus` | `str` | ❌ | Additional focus description (see [Focus Parameter Guide](#focus)) |
 
 ##### Method Parameters - `screen_companies()`
-Parameters to run the analysis end-to-end.
+Runs the screening workflow end-to-end and returns the results described below. Use these parameters to configure the analysis.
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
