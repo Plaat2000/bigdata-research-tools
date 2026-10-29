@@ -2,5 +2,8 @@
     "git.addAICoAuthor": "chatAndAgent",
     "github.copilot.chat.rateLimitAutoSwitchToAuto": true,
     "chatgpt.openOnStartup": true,
-    "chatgpt.runCodexInWindowsSubsystemForLinux": true
+    "chatgpt.runCodexInWindowsSubsystemForLinux": true,
+    "rainbow_csv.enable_debug_logging": false,
+    "github.copilot.chat.agentDebugLog.fileLogging.enabled": true,
+    "chat.agentHost.agentDebugLog.enabled": true
 }
