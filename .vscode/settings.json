@@ -1,0 +1,6 @@
+{
+    "git.addAICoAuthor": "chatAndAgent",
+    "github.copilot.chat.rateLimitAutoSwitchToAuto": true,
+    "chatgpt.openOnStartup": true,
+    "chatgpt.runCodexInWindowsSubsystemForLinux": true
+}
